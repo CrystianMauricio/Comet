@@ -1,0 +1,1 @@
+We are using Expo version 51. This means we must use npx expo-start and other npx expo commands instead of global expo commands.

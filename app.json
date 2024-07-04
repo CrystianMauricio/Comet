@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Comet — What to do right now",
+    "slug": "snack-ac51ed76-5426-44ac-beee-7b479308f375",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library to allow you to choose photos to upload to the chat.",
+        "NSSpeechRecognitionUsageDescription": "This app requires speech recognition access to help you input data by voice.",
+        "supportsTablet": true,
+        "bundleIdentifier": "com.lukalot.snackac51ed76542644acbeee7b479308f375"
+      },
+      "buildNumber": "4",
+      "bundleIdentifier": "com.lukalot.snackac51ed76542644acbeee7b479308f375"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lukalot.snackac51ed76542644acbeee7b479308f375"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7e90583-5a8b-4ae9-8994-9752565efbc5"
+      }
+    },
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "sentry org slug, or use the `SENTRY_ORG` environment variable",
+          "project": "sentry project name, or use the `SENTRY_PROJECT` environment variable"
+        }
+      ]
+    ]
+  }
+}

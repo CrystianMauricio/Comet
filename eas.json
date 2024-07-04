@@ -1,0 +1,21 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "testflight": {
+      "ios": {
+        "appleId": "lukenarnold+appleid@gmail.com",
+        "ascAppId": "6505089727",
+        "appleTeamId": "7UXPQQL84G"
+      }
+    }
+  }
+}
